@@ -1,2 +1,2 @@
-# t-event
-typescript event
+# prompt
+typescript prompt
