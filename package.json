@@ -1,6 +1,6 @@
 {
   "name": "@alirya/prompt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Typescript prompt",
   "publishConfig": {
     "directory": "dist"
@@ -17,8 +17,8 @@
   "dependencies": {
     "tslib": "^2.3.1",
     "@types/prompts": "^2.0.13",
-    "@alirya/undefined": "^0.5.2",
-    "@alirya/object": "^0.38.0",
+    "@alirya/undefined": "^0.6.1",
+    "@alirya/object": "^0.38.1",
     "prompts": "^2.3.2"
   },
   "devDependencies": {
@@ -39,7 +39,7 @@
     "ts-toolbelt": "^9.6.0",
     "utility-types": "^3.10.0",
     "package-version-git-tag": "^3.0.0",
-    "@alirya/array": "^0.27.0",
+    "@alirya/array": "^0.27.1",
     "cpx2": "^4.2.0",
     "@typescript-eslint/eslint-plugin": "^5.30.5",
     "@typescript-eslint/parser": "^5.30.5",
