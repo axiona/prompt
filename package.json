@@ -1,6 +1,6 @@
 {
   "name": "@alirya/prompt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Typescript prompt",
   "publishConfig": {
     "directory": "dist"
