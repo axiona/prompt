@@ -7,7 +7,7 @@ import WriteJsonAsync from '../../filesystem/dist/write/json-async';
 import {PromptParameters} from './prompt';
 
 
-export async function JsonFile<Type extends object>(
+export async function JsonFileParameters<Type extends object>(
     question: Questions<Type>,
     file: string,
     ensure : Callable<[Type], Type> = Identity
@@ -19,3 +19,28 @@ export async function JsonFile<Type extends object>(
 
     return result;
 }
+
+
+export type JsonFileArgument<Type extends object> = {
+    question: Questions<Type>,
+    path: string,
+    ensure ?: Callable<[Type], Type>
+};
+
+export function JsonFileParameter<Type extends object>(
+    {
+        question,
+        path,
+        ensure = Identity,
+    } : JsonFileArgument<Type>
+) {
+    return JsonFileParameters(question, path, ensure);
+}
+
+
+namespace JsonFile {
+    export const Parameters = JsonFileParameters;
+    export const Parameter = JsonFileParameter;
+    export type Argument<Type extends object> = JsonFileArgument<Type>;
+}
+export default JsonFile;
