@@ -1,6 +1,6 @@
 {
   "name": "@alirya/prompt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Typescript prompt",
   "publishConfig": {
     "directory": "dist"
@@ -18,7 +18,10 @@
     "tslib": "^2.3.1",
     "@types/prompts": "^2.0.13",
     "@alirya/undefined": "^0.6.1",
+    "@alirya/promise": "^0.1.1",
+    "@alirya/function": "^0.17.1",
     "@alirya/object": "^0.38.1",
+    "@alirya/filesystem": "^0.5.1",
     "prompts": "^2.3.2"
   },
   "devDependencies": {
@@ -81,6 +84,5 @@
     "_compile-asset-watch": "cpx \"./{package.json,package-lock.json,LICENSE,README.md,.npmignore}\" ./dist/ --verbose --watch",
     "prerelease": "npm-run-all _release-remove-compile-cache compile",
     "installs": "npm i"
-  },
-  "type": "module"
+  }
 }
