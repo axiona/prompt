@@ -1,10 +1,10 @@
-import Prompts from "prompts";
-import FilterMissing from "./prompt-object/array/filter-missing";
-import Questions from "./questions/questions";
-import FromQuestion from './prompt-object/array/from-question';
-import Union from '@alirya/promise/union';
-import Callable from '@alirya/function/callable';
-import Identity from '@alirya/function/identity';
+import Prompts from 'prompts';
+import FilterMissing from './prompt-object/array/filter-missing.js';
+import Questions from './questions/questions.js';
+import FromQuestion from './prompt-object/array/from-question.js';
+import Union from '@alirya/promise/union.js';
+import Callable from '@alirya/function/callable.js';
+import Identity from '@alirya/function/identity.js';
 
 export async function PromptParameters<Type extends object>(
     question: Questions<Type>,

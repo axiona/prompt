@@ -1,10 +1,10 @@
-import Questions from './questions/questions';
-import Callable from '@alirya/function/callable';
-import Union from '@alirya/promise/union';
-import Identity from '@alirya/function/identity';
-import ReadJsonAsync from '@alirya/filesystem/read/json-async';
-import WriteJsonAsync from '@alirya/filesystem/write/json-async';
-import {PromptParameters} from './prompt';
+import Questions from './questions/questions.js';
+import Callable from '@alirya/function/callable.js';
+import Union from '@alirya/promise/union.js';
+import Identity from '@alirya/function/identity.js';
+import ReadJsonAsync from '@alirya/filesystem/read/json-async.js';
+import WriteJsonAsync from '@alirya/filesystem/write/json-async.js';
+import {PromptParameters} from './prompt.js';
 
 
 export async function JsonFileParameters<Type extends object>(

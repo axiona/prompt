@@ -1,5 +1,5 @@
-import Questions from "../../questions/questions";
-import {PromptObject} from "prompts";
+import Questions from '../../questions/questions.js';
+import {PromptObject} from 'prompts';
 
 export default function FromQuestion<Type extends Record<string, any>>(
     prompt: Questions<Type>,

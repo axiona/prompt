@@ -1,6 +1,6 @@
-import Questions from './questions';
-import { DifferenceParameters } from '@alirya/object/difference';
-import Undefined from '@alirya/undefined/boolean/undefined';
+import Questions from './questions.js';
+import { DifferenceParameters } from '@alirya/object/difference.js';
+import Undefined from '@alirya/undefined/boolean/undefined.js';
 
 export default function FilterMissing<Type extends Questions>(questions: Type, config) : Partial<Type> {
 
