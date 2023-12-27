@@ -1,9 +1,9 @@
 import Questions from './questions/questions.js';
-import Callable from '@alirya/function/callable.js';
-import Union from '@alirya/promise/union.js';
-import Identity from '@alirya/function/identity.js';
-import ReadJsonAsync from '@alirya/filesystem/read/json-async.js';
-import WriteJsonAsync from '@alirya/filesystem/write/json-async.js';
+import Callable from '@axiona/function/callable.js';
+import Union from '@axiona/promise/union.js';
+import Identity from '@axiona/function/identity.js';
+import ReadJsonAsync from '@axiona/filesystem/read/json-async.js';
+import WriteJsonAsync from '@axiona/filesystem/write/json-async.js';
 import {PromptParameters} from './prompt.js';
 
 

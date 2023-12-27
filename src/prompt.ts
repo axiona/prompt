@@ -2,9 +2,9 @@ import Prompts from 'prompts';
 import FilterMissing from './prompt-object/array/filter-missing.js';
 import Questions from './questions/questions.js';
 import FromQuestion from './prompt-object/array/from-question.js';
-import Union from '@alirya/promise/union.js';
-import Callable from '@alirya/function/callable.js';
-import Identity from '@alirya/function/identity.js';
+import Union from '@axiona/promise/union.js';
+import Callable from '@axiona/function/callable.js';
+import Identity from '@axiona/function/identity.js';
 
 export async function PromptParameters<Type extends object>(
     question: Questions<Type>,
