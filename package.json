@@ -21,7 +21,7 @@
     "tslib": "^2.5.0",
     "@types/prompts": "^2.0.13",
     "@axiona/undefined": "^0.7.0",
-    "@axiona/promise": "^0.2.0",
+    "@axiona/promise": "^0.2.2",
     "@axiona/function": "^0.18.0",
     "@axiona/object": "^0.39.0",
     "@axiona/filesystem": "^0.6.0",
